@@ -93,6 +93,182 @@ Email Address:
 
     ceo@iNAYATechLab.Com 
 
+SL No. 03
+Online Name:
+
+    iNWEB-iNANA
+Job title :
+
+    Manager
+Email Address:
+
+    inaya@iNAYATechLab.Com
+
+SL No. 04
+Online Name:
+
+    iNWEB-(You)
+Job title :
+
+    Project Leader
+Email Address:
+
+    leader@iNAYATechLab.Com
+
+SL No. 05
+Online Name:
+
+    iNWEB-APEX
+Job title :
+
+    Architecture
+Email Address:
+
+    APEX@iNAYATechLab.Com
+
+SL No. 06
+Online Name:
+
+    iNWEB-(?)
+Job title :
+
+    Technical Direction
+Email Address:
+
+    direction@iNAYATechLab.Com
+
+SL No. 07
+Online Name:
+
+    iNWEB-AEGIS
+Job title :
+
+    Security Engineering
+Email Address:
+
+    AEGIS@iNAYATechLab.Com
+
+SL No. 08
+Online Name:
+
+    iNWEB-VAULT
+Job title :
+
+    Core Security Engineer
+Email Address:
+
+    VAULT@iNAYATechLab.Com
+
+SL No. 09
+Online Name:
+
+    iNWEB-(?)
+Job title :
+
+    Cryptography Engineer
+Email Address:
+
+    crypto@iNAYATechLab.Com
+
+SL No. 10
+Online Name:
+
+    iNWEB-NOVA
+Job title :
+
+    Android Engineer
+Email Address:
+
+    NOVA@iNAYATechLab.Com
+
+SL No. 11
+Online Name:
+
+    iNWEB-ORBIT
+Job title :
+
+    iOS Engineer
+Email Address:
+
+    ORBIT@iNAYATechLab.Com
+
+SL No. 12
+Online Name:
+
+    iNWEB-HORIZON
+Job title :
+
+    Web Engineer
+Email Address:
+
+    HORIZON@iNAYATechLab.Com
+
+SL No. 13
+Online Name:
+
+    iNWEB-FORGE
+Job title :
+
+    Backend Engineer
+Email Address:
+
+    FORGE@iNAYATechLab.Com
+
+SL No. 14
+Online Name:
+
+    iNWEB-(?)
+Job title :
+
+    Frontend Engineer
+Email Address:
+
+    frontend@iNAYATechLab.Com
+
+SL No. 15
+Online Name:
+
+    iNWEB-VERITAS
+Job title :
+
+    Quality Engineer
+Email Address:
+
+    VERITAS@iNAYATechLab.Com
+
+SL No. 16
+Online Name:
+
+    iNWEB-PULSE
+Job title :
+
+    DevOps Engineer
+Email Address:
+
+    PULSE@iNAYATechLab.Com
+
+SL No. 17
+Online Name:
+
+    YourSamiBD
+Job title :
+
+    CI Engineer
+Email Address:
+
+    ci@iNAYATechLab.Com
+
+SL No. 18
+Online Name:
+
+    YourSamiBD
+Job title :
+
+    CD Engineer
+Email Address:
+
+    cd@iNAYATechLab.Com
+    
     
 
 
