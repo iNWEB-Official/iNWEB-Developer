@@ -1,27 +1,40 @@
 **List of Developers**
 
-<center>*GitHub Organization*<br>
+<center>**GitHub Organization**<br>
 **iNWEB-Official**</center>
 
-01.── YourSamiBD - Owner / Project Leadership 
+01.── YourSamiBD - CEO & Founder 
 
-02.── iNWEB-APEX - Architecture & Technical Direction
+02.── iNWEB-iNANA - Manager
 
-03.── iNWEB-AEGIS - Security Engineering
+03.── iNWEB-(You) - Project Leader
 
-04.── iNWEB-VAULT - Core Security & Cryptography
+04.── iNWEB-APEX - Architecture
 
-05.── iNWEB-NOVA - Android Engineering
+05.── iNWEB-(?) - Technical Direction
 
-06.── iNWEB-ORBIT - iOS Engineering
+06.── iNWEB-AEGIS - Security Engineering
 
-07.── iNWEB-HORIZON - Web Engineering
+07.── iNWEB-VAULT - Core Security Engineer
 
-08.── iNWEB-FORGE - Backend Engineering
+08.── iNWEB-(?)- Cryptography Engineer
 
-09.── iNWEB-VERITAS - Quality Engineering
+09.── iNWEB-NOVA - Android Engineer
 
-10.── iNWEB-PULSE - DevOps & CI/CD
+10.── iNWEB-ORBIT - iOS Engineer
+
+11.── iNWEB-HORIZON - Web Engineer
+
+12.── iNWEB-FORGE - Backend Engineer
+
+13.── iNWEB-(?) - Frontend Engineer 
+
+12.── iNWEB-VERITAS - Quality Engineer
+
+13.── iNWEB-PULSE - DevOps Engineer
+
+01.── YourSamiBD - CI Engineer
+01.── YourSamiBD - CD Engineer
 
 
 
@@ -53,61 +66,50 @@
                    
   
   
-  
+
   
   **Stuff List:**
-  
-Name:
+
+
+SL No. 01
+Online Name:
 
     YourSamiBD
 Job title :
   
-    Project Leader
+    CEO & Founder
 Email Address:
 
     ceo@iNAYATechLab.Com 
-Profile
-
-    iNAYATechLab.Com@YourSamiBD
     
-  Job title:
+SL No. 02
+Online Name:
+
+    iNAYA Bin Mahi
+Job title :
   
-    Architecture Engineer
-  
-    YourSamiBD
+    CEO & Founder
+Email Address:
+
+    ceo@iNAYATechLab.Com 
+
+    
+
+
+
+
+Project Leader
+Architecture Engineer
 Technical Direction Engineer
-
-    YourSamiBD
+Project Leader
 Security Engineer
-
-    YourSamiBD
-Security Engineer
-
-    YourSamiBD
 Core Security Engineer 
-
-    YourSamiBD
 Cryptography Engineer
-
-    YourSamiBD
 Android Engineer
-
-    YourSamiBD
 iOS Engineer
-
-    YourSamiBD
 Web Engineer
-
-    YourSamiBD
 Backend Engineer
-
-    YourSamiBD
 Quality Engineer
-
-    YourSamiBD
 DevOps
-
-    YourSamiBD
-CI/CD
-
-    YourSamiBD
+CI
+CD
