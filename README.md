@@ -29,12 +29,12 @@
 
 13.── iNWEB-(?) - Frontend Engineer 
 
-12.── iNWEB-VERITAS - Quality Engineer
+14.── iNWEB-VERITAS - Quality Engineer
 
-13.── iNWEB-PULSE - DevOps Engineer
+15.── iNWEB-PULSE - DevOps Engineer
 
-01.── YourSamiBD - CI Engineer
-01.── YourSamiBD - CD Engineer
+16.── YourSamiBD - CI Engineer
+17.── YourSamiBD - CD Engineer
 
 
 
