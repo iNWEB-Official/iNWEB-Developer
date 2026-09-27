@@ -2,7 +2,7 @@
 
 ## Supported version
 
-Security fixes are applied to the current version on `main`. The current pre-1.0 release line is `0.1.x`.
+Security fixes are applied to the current version on `main`. The current pre-1.0 release line is `0.2.x`.
 
 ## Reporting a vulnerability
 

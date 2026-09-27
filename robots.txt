@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://inweb-official.github.io/iNWEB-Developer/sitemap.xml

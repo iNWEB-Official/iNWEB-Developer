@@ -9,8 +9,9 @@ The official public team website for **iNWEB**, a multidisciplinary engineering 
 - A bilingual English/Bengali interface
 - Responsive layouts for mobile, tablet and desktop
 - Search and discipline filters for 16 professional role profiles
-- Accessible navigation, focus treatment, semantic landmarks and a keyboard-operable profile dialog
-- Progressive enhancement: core English content remains available without JavaScript
+- A dedicated, indexable bilingual page for every identity, including `/@CEO/` and `/@iNAYA/`
+- Accessible navigation, focus treatment, semantic landmarks and direct profile links
+- Progressive enhancement: every English page remains readable without JavaScript
 - Privacy-conscious public profiles that omit legal names, portraits and personal contact details
 - No framework, build step, package manager, third-party font, tracker or runtime dependency
 
@@ -18,28 +19,53 @@ The official public team website for **iNWEB**, a multidisciplinary engineering 
 
 This is a normal static website:
 
-- **HTML** provides content and semantic structure.
-- **CSS** provides the responsive visual system and motion preferences.
-- **JavaScript** provides language switching, directory filtering, mobile navigation and profile dialogs.
+- **HTML** provides the home page, profile content and semantic structure.
+- **CSS** provides the shared responsive visual system.
+- **JavaScript** provides language switching, directory filtering and mobile navigation.
 - **SVG** provides local brand artwork.
 
 There is no Node.js project and no generated application bundle.
+
+## Public profile routes
+
+| Handle | Role identity |
+| --- | --- |
+| `@CEO` | YourSamiBD |
+| `@iNAYA` | iNWEB-iNANA |
+| `@AIRA` | iNWEB-AIRA |
+| `@APEX` | iNWEB-APEX |
+| `@BEACON` | iNWEB-BEACON |
+| `@AEGIS` | iNWEB-AEGIS |
+| `@VAULT` | iNWEB-VAULT |
+| `@CIPHER` | iNWEB-CIPHER |
+| `@NOVA` | iNWEB-NOVA |
+| `@ORBIT` | iNWEB-ORBIT |
+| `@HORIZON` | iNWEB-HORIZON |
+| `@FORGE` | iNWEB-FORGE |
+| `@CANVAS` | iNWEB-CANVAS |
+| `@VERITAS` | iNWEB-VERITAS |
+| `@PULSE` | iNWEB-PULSE |
+| `@RELAY` | iNWEB-RELAY |
+
+Each handle is a static directory containing an `index.html`, so GitHub Pages serves both `/@HANDLE` and the canonical `/@HANDLE/` URL.
 
 ## Repository layout
 
 ```text
 .
 ├── .github/workflows/website.yml  # CI validation and Pages deployment
+├── @*/index.html                  # Sixteen dedicated public profiles
 ├── assets/
-│   ├── css/styles.css             # Design system and responsive components
+│   ├── css/                       # Shared home and profile-page styles
 │   ├── images/                    # Favicon and social artwork
-│   └── js/app.js                  # Dependency-free enhancements
+│   └── js/                        # Dependency-free enhancements
 ├── docs/                          # Architecture and maintenance guidance
 ├── scripts/validate_site.py       # Standard-library static checks used in CI
 ├── CHANGELOG.md                   # Release history
 ├── VERSION                        # Current SemVer version
-├── index.html                     # The complete one-page website
-└── robots.txt                     # Crawler policy
+├── index.html                     # Searchable public team home page
+├── robots.txt                     # Crawler policy
+└── sitemap.xml                    # Home and profile URLs
 ```
 
 ## Previewing the site
@@ -50,15 +76,16 @@ Project validation is intentionally performed by **GitHub Actions**, not by loca
 
 ## Updating content
 
-English is the source language and the no-JavaScript default. Bilingual elements in `index.html` use matching `data-en` and `data-bn` attributes. Long-form profile dialog content is held in the `profiles` object in `assets/js/app.js`.
+English is the source language and the no-JavaScript default. Bilingual elements on the home page and every profile page use matching `data-en` and `data-bn` attributes. Long-form role content is written directly into each profile page so it remains readable and indexable without JavaScript.
 
 When changing a staff profile:
 
-1. Keep the card and profile identifiers aligned.
-2. Update both English and Bengali copy.
-3. Use only management-approved role identities and professional information.
-4. Do not add legal names, personal email addresses, phone numbers, home addresses or portraits without explicit approval and a privacy review.
-5. Open a pull request and rely on the website workflow for validation.
+1. Keep the home-page card, `data-profile` identifier, profile directory and canonical URL aligned.
+2. Update both the card and dedicated profile page in English and Bengali.
+3. Update adjacent-profile navigation and the sitemap if routes change.
+4. Use only management-approved role identities and professional information.
+5. Do not add legal names, personal email addresses, phone numbers, home addresses or portraits without explicit approval and a privacy review.
+6. Open a pull request and rely on the website workflow for validation.
 
 See the [content guide](docs/CONTENT_GUIDE.md) for the full editorial model.
 
@@ -74,7 +101,7 @@ Merges to `main` are validated and then published as a static artifact through G
 
 ## Versioning
 
-The project follows [Semantic Versioning](https://semver.org/). The initial public static release is **0.1.0**. Update `VERSION`, `CHANGELOG.md` and the version displayed in `index.html` together.
+The project follows [Semantic Versioning](https://semver.org/). The current release is **0.2.0**. Update `VERSION`, `CHANGELOG.md` and the version displayed on the home page and profile pages together.
 
 ## Contributing
 

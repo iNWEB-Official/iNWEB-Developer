@@ -11,12 +11,11 @@ The `.github/workflows/website.yml` workflow runs for pull requests and pushes. 
 The workflow:
 
 1. checks out the exact revision;
-2. rejects whitespace errors;
-3. runs JavaScript syntax validation without installing project dependencies;
-4. runs `scripts/validate_site.py` with the Python standard library; and
-5. uploads a static GitHub Pages artifact only for the protected deployment path.
+2. checks every JavaScript source file for syntax errors without installing project dependencies;
+3. runs `scripts/validate_site.py` with the Python standard library; and
+4. creates a static GitHub Pages artifact only for the protected deployment path.
 
-The static validator checks required files, relative asset references, duplicate and broken fragment identifiers, key document metadata, basic control attributes, paired bilingual attributes, the number and identity of staff cards, and corresponding JavaScript profile records.
+The static validator checks required files, UTF-8 text, relative assets and local page links, duplicate and broken fragment identifiers, key metadata, control attributes, paired bilingual attributes, all 16 staff identities, dedicated profile routes, canonical URLs, sitemap entries and release metadata.
 
 ## Manual acceptance checks
 
@@ -25,7 +24,8 @@ Automation does not establish visual, translation or complete accessibility qual
 - responsive layout at mobile, tablet and desktop sizes;
 - English and Bengali copy;
 - navigation and contact destinations;
-- search, filters, clear state and profile dialogs;
+- search, filters and the clear/empty states;
+- every dedicated profile page and adjacent-profile navigation;
 - privacy requirements for staff content;
 - the checklist in [Accessibility](ACCESSIBILITY.md); and
 - current versions of major browsers used by the intended audience.
