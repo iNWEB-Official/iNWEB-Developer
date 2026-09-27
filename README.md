@@ -46,3 +46,68 @@
           ├──────────── FORGE ─────────── Backend
           ├─────────── VERITAS ──────────── QA
           └──────────── PULSE ─────────── DevOps
+
+
+
+────────────────────────────────────────────────────────────────────────
+                   
+  
+  
+  
+  
+  **Stuff List:**
+  
+Name:
+
+    YourSamiBD
+Job title :
+  
+    Project Leader
+Email Address:
+
+    ceo@iNAYATechLab.Com 
+Profile
+
+    iNAYATechLab.Com@YourSamiBD
+    
+  Job title:
+  
+    Architecture Engineer
+  
+    YourSamiBD
+Technical Direction Engineer
+
+    YourSamiBD
+Security Engineer
+
+    YourSamiBD
+Security Engineer
+
+    YourSamiBD
+Core Security Engineer 
+
+    YourSamiBD
+Cryptography Engineer
+
+    YourSamiBD
+Android Engineer
+
+    YourSamiBD
+iOS Engineer
+
+    YourSamiBD
+Web Engineer
+
+    YourSamiBD
+Backend Engineer
+
+    YourSamiBD
+Quality Engineer
+
+    YourSamiBD
+DevOps
+
+    YourSamiBD
+CI/CD
+
+    YourSamiBD
