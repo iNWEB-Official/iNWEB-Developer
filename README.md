@@ -1,274 +1,85 @@
-**List of Developers**
+# iNWEB public website
 
-<center>**GitHub Organization**<br>
-**iNWEB-Official**</center>
+The official public team website for **iNWEB**, a multidisciplinary engineering collective spanning leadership, architecture, security, mobile, web, backend, quality and delivery.
 
-01.── YourSamiBD - CEO & Founder 
+[![Website validation](https://github.com/iNWEB-Official/iNWEB-Developer/actions/workflows/website.yml/badge.svg)](https://github.com/iNWEB-Official/iNWEB-Developer/actions/workflows/website.yml)
 
-02.── iNWEB-iNANA - Manager
+## What the site includes
 
-03.── iNWEB-AIRA - Project Leader
+- A bilingual English/Bengali interface
+- Responsive layouts for mobile, tablet and desktop
+- Search and discipline filters for 16 professional role profiles
+- Accessible navigation, focus treatment, semantic landmarks and a keyboard-operable profile dialog
+- Progressive enhancement: core English content remains available without JavaScript
+- Privacy-conscious public profiles that omit legal names, portraits and personal contact details
+- No framework, build step, package manager, third-party font, tracker or runtime dependency
 
-04.── iNWEB-APEX - Architecture
+## Technology
 
-05.── iNWEB-BEACON - Technical Direction
+This is a normal static website:
 
-06.── iNWEB-AEGIS - Security Engineering
+- **HTML** provides content and semantic structure.
+- **CSS** provides the responsive visual system and motion preferences.
+- **JavaScript** provides language switching, directory filtering, mobile navigation and profile dialogs.
+- **SVG** provides local brand artwork.
 
-07.── iNWEB-VAULT - Core Security Engineer
+There is no Node.js project and no generated application bundle.
 
-08.── iNWEB-CIPHER - Cryptography Engineer
+## Repository layout
 
-09.── iNWEB-NOVA - Android Engineer
+```text
+.
+├── .github/workflows/website.yml  # CI validation and Pages deployment
+├── assets/
+│   ├── css/styles.css             # Design system and responsive components
+│   ├── images/                    # Favicon and social artwork
+│   └── js/app.js                  # Dependency-free enhancements
+├── docs/                          # Architecture and maintenance guidance
+├── scripts/validate_site.py       # Standard-library static checks used in CI
+├── CHANGELOG.md                   # Release history
+├── VERSION                        # Current SemVer version
+├── index.html                     # The complete one-page website
+└── robots.txt                     # Crawler policy
+```
 
-10.── iNWEB-ORBIT - iOS Engineer
+## Previewing the site
 
-11.── iNWEB-HORIZON - Web Engineer
+Open `index.html` directly in a browser or serve the repository root from any static file server. The site uses relative asset paths and does not require a compilation step.
 
-12.── iNWEB-FORGE - Backend Engineer
+Project validation is intentionally performed by **GitHub Actions**, not by local test commands. Every pull request and push runs the validation job described in [Testing](docs/TESTING.md).
 
-13.── iNWEB-CANVAS - Frontend Engineer 
+## Updating content
 
-14.── iNWEB-VERITAS - Quality Engineer
+English is the source language and the no-JavaScript default. Bilingual elements in `index.html` use matching `data-en` and `data-bn` attributes. Long-form profile dialog content is held in the `profiles` object in `assets/js/app.js`.
 
-15.── iNWEB-PULSE - DevOps Engineer
+When changing a staff profile:
 
-16.── iNWEB-FORGE - CI Engineer
+1. Keep the card and profile identifiers aligned.
+2. Update both English and Bengali copy.
+3. Use only management-approved role identities and professional information.
+4. Do not add legal names, personal email addresses, phone numbers, home addresses or portraits without explicit approval and a privacy review.
+5. Open a pull request and rely on the website workflow for validation.
 
-17.── iNWEB-RELAY - CD Engineer
+See the [content guide](docs/CONTENT_GUIDE.md) for the full editorial model.
 
+## Accessibility and privacy
 
+The project targets WCAG 2.2 AA practices and uses progressive enhancement, visible focus indicators, reduced-motion handling, live directory results and semantic controls. Automated structural checks support—but do not replace—manual keyboard, zoom, screen-reader and bilingual-content review. See [Accessibility](docs/ACCESSIBILITY.md).
 
+The website has no account system, analytics, contact form, advertising tracker or session replay. See [Security](SECURITY.md) for reporting guidance and [Architecture](docs/ARCHITECTURE.md) for the trust model.
 
+## Deployment
 
+Merges to `main` are validated and then published as a static artifact through GitHub Pages. Pull requests are validated but never deployed. See [Deployment](docs/DEPLOYMENT.md).
 
-                        **organizational hierarchy:**
+## Versioning
 
-                              YourSamiBD
-                          Owner / Project Lead
-                                   │
-                                   ▼
-                               iNWEB-APEX
-                         Architecture & Direction
-                                   │
-          ┌──────────────┼──────────────┐
-          ▼                       ▼                        ▼
-       AEGIS                      VAULT                    NOVA
-      Security                    Core                   Android
-          ├──────────── ORBIT ──────────── iOS
-          ├─────────── HORIZON ──────────── Web
-          ├──────────── FORGE ─────────── Backend
-          ├─────────── VERITAS ──────────── QA
-          └──────────── PULSE ─────────── DevOps
+The project follows [Semantic Versioning](https://semver.org/). The initial public static release is **0.1.0**. Update `VERSION`, `CHANGELOG.md` and the version displayed in `index.html` together.
 
+## Contributing
 
+See [CONTRIBUTING.md](CONTRIBUTING.md). By participating, contributors agree to keep public staff content professional, minimal and privacy-conscious.
 
-────────────────────────────────────────────────────────────────────────
-                   
-  
-  
+## License
 
-  
-  **Stuff List:**
-
-
-SL No. 01
-Online Name:
-
-    YourSamiBD
-Job title :
-  
-    CEO & Founder
-Email Address:
-
-    ceo@iNAYATechLab.Com 
-    
-SL No. 02
-Online Name:
-
-    iNWEB-iNANA
-Job title :
-
-    Manager
-Email Address:
-
-    inaya@iNAYATechLab.Com
-
-SL No. 03
-Online Name:
-
-    iNWEB-Lead
-Job title :
-
-    Project Leader
-Email Address:
-
-    leader@iNAYATechLab.Com
-
-SL No. 04
-Online Name:
-
-    iNWEB-APEX
-Job title :
-
-    Architecture
-Email Address:
-
-    APEX@iNAYATechLab.Com
-
-SL No. 05
-Online Name:
-
-    iNWEB-BEACON
-Job title :
-
-    Technical Direction
-Email Address:
-
-    BEACON@iNAYATechLab.Com
-
-SL No. 06
-Online Name:
-
-    iNWEB-AEGIS
-Job title :
-
-    Security Engineering
-Email Address:
-
-    AEGIS@iNAYATechLab.Com
-
-SL No. 07
-Online Name:
-
-    iNWEB-VAULT
-Job title :
-
-    Core Security Engineer
-Email Address:
-
-    VAULT@iNAYATechLab.Com
-
-SL No. 08
-Online Name:
-
-    iNWEB-CIPHER
-Job title :
-
-    Cryptography Engineer
-Email Address:
-
-    CIPHER@iNAYATechLab.Com
-
-SL No. 09
-Online Name:
-
-    iNWEB-NOVA
-Job title :
-
-    Android Engineer
-Email Address:
-
-    NOVA@iNAYATechLab.Com
-
-SL No. 10
-Online Name:
-
-    iNWEB-ORBIT
-Job title :
-
-    iOS Engineer
-Email Address:
-
-    ORBIT@iNAYATechLab.Com
-
-SL No. 13
-Online Name:
-
-    iNWEB-HORIZON
-Job title :
-
-    Web Engineer
-Email Address:
-
-    HORIZON@iNAYATechLab.Com
-
-SL No. 14
-Online Name:
-
-    iNWEB-FORGE
-Job title :
-
-    Backend Engineer
-Email Address:
-
-    FORGE@iNAYATechLab.Com
-
-SL No. 15
-Online Name:
-
-    iNWEB-CANVAS
-Job title :
-
-    Frontend Engineer
-Email Address:
-
-    CANVAS@iNAYATechLab.Com
-
-SL No. 16
-Online Name:
-
-    iNWEB-VERITAS
-Job title :
-
-    Quality Engineer
-Email Address:
-
-    VERITAS@iNAYATechLab.Com
-
-SL No. 17
-Online Name:
-
-    iNWEB-PULSE
-Job title :
-
-    DevOps Engineer
-Email Address:
-
-    PULSE@iNAYATechLab.Com
-
-SL No. 18
-Online Name:
-
-    iNWEB-FORGE
-Job title :
-
-    CI Engineer
-Email Address:
-
-    ci@iNAYATechLab.Com
-
-SL No. 19
-Online Name:
-
-    iNWEB-RELAY
-Job title :
-
-    CD Engineer
-Email Address:
-
-    cd@iNAYATechLab.Com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+See [LICENSE](LICENSE).

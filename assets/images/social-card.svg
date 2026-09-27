@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">iNWEB — Engineering with clarity</title>
+  <desc id="description">A dark blue iNWEB social card with an abstract green architecture diagram.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="1" stop-color="#111a32"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee7b7"/>
+      <stop offset="1" stop-color="#3bb4c1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="1050" cy="-30" r="360" fill="#6ee7b7" opacity=".045"/>
+  <circle cx="1050" cy="-30" r="245" fill="none" stroke="#6ee7b7" stroke-opacity=".11" stroke-width="2"/>
+  <path d="M810 155h195l102 102v182H912L810 337z" fill="#0b1529" stroke="#6ee7b7" stroke-opacity=".32" stroke-width="2"/>
+  <path d="M810 246h297M912 155v284M810 337h297M1005 155v284" fill="none" stroke="#6ee7b7" stroke-opacity=".18" stroke-width="2"/>
+  <circle cx="810" cy="246" r="9" fill="url(#accent)"/>
+  <circle cx="912" cy="337" r="9" fill="url(#accent)"/>
+  <circle cx="1107" cy="257" r="9" fill="url(#accent)"/>
+  <text x="92" y="132" fill="#6ee7b7" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">INWEB</text>
+  <text x="92" y="288" fill="#f8fafc" font-family="Arial, sans-serif" font-size="72" font-weight="700">Engineering</text>
+  <text x="92" y="374" fill="#f8fafc" font-family="Arial, sans-serif" font-size="72" font-weight="700">with clarity.</text>
+  <text x="96" y="465" fill="#aeb9cf" font-family="Arial, sans-serif" font-size="27">Thoughtful systems. Focused teams. Dependable delivery.</text>
+  <rect x="92" y="526" width="116" height="5" rx="2.5" fill="url(#accent)"/>
+</svg>
