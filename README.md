@@ -1,59 +1,48 @@
 **List of Developers**
 
-*GitHub Organization*
-**iNWEB-Official**
+<center>*GitHub Organization*<br>
+**iNWEB-Official**</center>
 
-01.── YourSamiBD
-      └── Owner / Project Leadership 
+01.── YourSamiBD - Owner / Project Leadership 
 
-02.── iNWEB-APEX
-     └── Architecture & Technical Direction
+02.── iNWEB-APEX - Architecture & Technical Direction
 
-03.── iNWEB-AEGIS
-     └── Security Engineering
+03.── iNWEB-AEGIS - Security Engineering
 
-04.── iNWEB-VAULT
-     └── Core Security & Cryptography
+04.── iNWEB-VAULT - Core Security & Cryptography
 
-05.── iNWEB-NOVA
-     └── Android Engineering
+05.── iNWEB-NOVA - Android Engineering
 
-06.── iNWEB-ORBIT
-     └── iOS Engineering
+06.── iNWEB-ORBIT - iOS Engineering
 
-07.── iNWEB-HORIZON
-     └── Web Engineering
+07.── iNWEB-HORIZON - Web Engineering
 
-08.── iNWEB-FORGE
-     └── Backend Engineering
+08.── iNWEB-FORGE - Backend Engineering
 
-09.── iNWEB-VERITAS
-     └── Quality Engineering
+09.── iNWEB-VERITAS - Quality Engineering
 
-10.── iNWEB-PULSE
-      └── DevOps & CI/CD
+10.── iNWEB-PULSE - DevOps & CI/CD
 
 
 
 
 
 
-**organizational hierarchy:**a
+                        **organizational hierarchy:**
 
-                        YourSamiBD
-                Owner / Project Lead
-                         │
-                         ▼
-                    iNWEB-APEX
-             Architecture & Direction
-                         │
+                              YourSamiBD
+                          Owner / Project Lead
+                                   │
+                                   ▼
+                               iNWEB-APEX
+                         Architecture & Direction
+                                   │
           ┌──────────────┼──────────────┐
-          ▼              ▼              ▼
-       AEGIS           VAULT           NOVA
-      Security          Core          Android
-          │
-          ├──────── ORBIT ──────── iOS
-          ├──────── HORIZON ────── Web
-          ├──────── FORGE ──────── Backend
-          ├──────── VERITAS ────── QA
-          └──────── PULSE ──────── DevOps
+          ▼                       ▼                        ▼
+       AEGIS                      VAULT                    NOVA
+      Security                    Core                   Android
+          ├──────────── ORBIT ──────────── iOS
+          ├─────────── HORIZON ──────────── Web
+          ├──────────── FORGE ─────────── Backend
+          ├─────────── VERITAS ──────────── QA
+          └──────────── PULSE ─────────── DevOps
