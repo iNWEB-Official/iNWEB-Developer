@@ -9,7 +9,7 @@ The website is deployed as static files with GitHub Pages. No server process, bu
 `.github/workflows/website.yml` separates validation from deployment:
 
 - Pull requests and branch pushes run validation only.
-- A push to `main` runs validation and, if it succeeds, creates a minimal Pages artifact containing `index.html`, `assets/`, `robots.txt` and `.nojekyll`.
+- A push to `main` runs validation and, if it succeeds, creates a minimal Pages artifact containing `index.html`, all `@HANDLE/` profile directories, `assets/`, `robots.txt`, `sitemap.xml` and `.nojekyll`.
 - GitHub’s Pages deployment action publishes that artifact to the `github-pages` environment.
 
 The repository’s Pages source must be set to **GitHub Actions**. Environment protection rules may be enabled for additional release approval.
@@ -17,7 +17,7 @@ The repository’s Pages source must be set to **GitHub Actions**. Environment p
 ## Release checklist
 
 1. Confirm the proposed version follows Semantic Versioning.
-2. Update `VERSION`, `CHANGELOG.md` and the footer version together.
+2. Update `VERSION`, `CHANGELOG.md` and the footer version on the home and profile pages together.
 3. Complete bilingual, privacy, visual and accessibility review.
 4. Require a passing website-validation check.
 5. Merge the reviewed pull request to `main`.

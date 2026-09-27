@@ -7,7 +7,7 @@ Public copy should be clear, specific and restrained. Describe what the team doe
 - Prefer concise sentences and active voice.
 - Explain specialist terms when general readers need them.
 - Keep English and Bengali meaning aligned; do not translate mechanically when a natural Bengali phrase is clearer.
-- Use consistent role names across cards, search data and dialogs.
+- Use consistent role names across cards, search data and dedicated profile pages.
 - Treat English as the source copy and review both languages in the interface after any change.
 
 ## Staff-profile policy
@@ -37,18 +37,20 @@ The text node is the English no-JavaScript fallback. Keep it identical to `data-
 
 Input placeholders use `data-placeholder-en` and `data-placeholder-bn`. Accessible labels use `data-aria-en` and `data-aria-bn`.
 
-Profile dialog copy is stored in the `profiles` object in `assets/js/app.js`. Every profile must include English and Bengali values for role, department, biography and expertise.
+Each public role has a dedicated `@HANDLE/index.html` page. Its role, department, biography, focus areas and contribution copy must be complete in both English and Bengali. The page must remain useful without JavaScript.
 
 ## Adding or changing a staff entry
 
 Maintain all related values together:
 
-1. The `data-member` value on the HTML card
+1. The `data-member` value on the home-page card
 2. The card’s `data-department`
 3. English and Bengali searchable terms
-4. The matching `data-profile` button value
-5. The same top-level profile key in `assets/js/app.js`
-6. The displayed staff count if the total changes
+4. The matching `data-profile` link and `@HANDLE/` destination
+5. The profile page’s `data-profile-id`, canonical URL and bilingual metadata
+6. Previous/next profile navigation
+7. The approved route registry in `scripts/validate_site.py`
+8. The displayed staff count and sitemap if the total changes
 
 Identifiers use lowercase ASCII letters and numbers and must be unique.
 

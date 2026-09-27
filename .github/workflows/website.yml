@@ -26,7 +26,10 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Check JavaScript syntax
-        run: node --check assets/js/app.js
+        run: |
+          for file in assets/js/*.js; do
+            node --check "$file"
+          done
 
       - name: Validate structure, content and local assets
         run: python3 scripts/validate_site.py
@@ -54,8 +57,9 @@ jobs:
       - name: Prepare static artifact
         run: |
           mkdir _site
-          cp index.html robots.txt .nojekyll _site/
+          cp index.html robots.txt sitemap.xml .nojekyll _site/
           cp -R assets _site/assets
+          cp -R @* _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
