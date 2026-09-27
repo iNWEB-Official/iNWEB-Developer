@@ -34,6 +34,7 @@
 15.── iNWEB-PULSE - DevOps Engineer
 
 16.── YourSamiBD - CI Engineer
+
 17.── YourSamiBD - CD Engineer
 
 
@@ -268,24 +269,3 @@ Job title :
 Email Address:
 
     cd@iNAYATechLab.Com
-    
-    
-
-
-
-
-Project Leader
-Architecture Engineer
-Technical Direction Engineer
-Project Leader
-Security Engineer
-Core Security Engineer 
-Cryptography Engineer
-Android Engineer
-iOS Engineer
-Web Engineer
-Backend Engineer
-Quality Engineer
-DevOps
-CI
-CD
