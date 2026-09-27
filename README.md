@@ -11,13 +11,13 @@
 
 04.── iNWEB-APEX - Architecture
 
-05.── iNWEB-(?) - Technical Direction
+05.── iNWEB-BEACON - Technical Direction
 
 06.── iNWEB-AEGIS - Security Engineering
 
 07.── iNWEB-VAULT - Core Security Engineer
 
-08.── iNWEB-(?)- Cryptography Engineer
+08.── iNWEB-CIPHER - Cryptography Engineer
 
 09.── iNWEB-NOVA - Android Engineer
 
@@ -27,7 +27,7 @@
 
 12.── iNWEB-FORGE - Backend Engineer
 
-13.── iNWEB-(?) - Frontend Engineer 
+13.── iNWEB-CANVAS - Frontend Engineer 
 
 14.── iNWEB-VERITAS - Quality Engineer
 
@@ -129,13 +129,13 @@ Email Address:
 SL No. 06
 Online Name:
 
-    iNWEB-(?)
+    iNWEB-BEACON
 Job title :
 
     Technical Direction
 Email Address:
 
-    direction@iNAYATechLab.Com
+    BEACON@iNAYATechLab.Com
 
 SL No. 07
 Online Name:
@@ -162,13 +162,13 @@ Email Address:
 SL No. 09
 Online Name:
 
-    iNWEB-(?)
+    iNWEB-CIPHER
 Job title :
 
     Cryptography Engineer
 Email Address:
 
-    crypto@iNAYATechLab.Com
+    CIPHER@iNAYATechLab.Com
 
 SL No. 10
 Online Name:
@@ -217,13 +217,13 @@ Email Address:
 SL No. 14
 Online Name:
 
-    iNWEB-(?)
+    iNWEB-CANVAS
 Job title :
 
     Frontend Engineer
 Email Address:
 
-    frontend@iNAYATechLab.Com
+    CANVAS@iNAYATechLab.Com
 
 SL No. 15
 Online Name:
