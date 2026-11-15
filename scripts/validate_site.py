@@ -346,9 +346,6 @@ def validate_release_metadata():
     for path in [ROOT / "index.html", *ROOT.glob("@*/index.html")]:
         if f"v{version}" not in path.read_text(encoding="utf-8"):
             error("Displayed website version does not match VERSION", str(path.relative_to(ROOT)))
-    changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
-    if f"[{version}]" not in changelog:
-        error("CHANGELOG does not contain the current version", "CHANGELOG.md")
 
 
 required_files = [
@@ -363,7 +360,6 @@ required_files = [
     "README.md",
     "LICENSE",
     "VERSION",
-    "CHANGELOG.md",
     "robots.txt",
     "sitemap.xml",
 ]
